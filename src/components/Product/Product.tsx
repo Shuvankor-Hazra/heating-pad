@@ -5,11 +5,11 @@ import img1 from "../../assets/gallery1.jpg"
 const styles = "relative pl-6 before:content-[''] before:absolute before:top-2 before:left-0  before:w-4 before:h-4 before:bg-[#008906] before:[clip-path:polygon(50%_0,100%_25%,50%_100%,0_25%)] text-lg"
 const Product = () => {
     return (
-        <div className='mt-10'>
-            <h2 className='text-[34px] font-bold text-center text-black'>পণ্য তথ্য</h2>
-            <div className="text-black p-5">
+        <div className='mt-10 text-black'>
+            <h2 className='text-3xl font-bold text-center '>পণ্য তথ্য</h2>
+            <div className="p-5">
                 <p className={styles} >
-                   <span className="font-semibold text-base">রঙ:</span> গোলাপী
+                    <span className="font-semibold text-base">রঙ:</span> গোলাপী
                 </p>
                 <p className={styles}>
                     <span className="font-semibold text-base">ব্যথার জন্য উপকারী:</span> পেট, পিট, পা এবং উরুতে ব্যথা কমাতে সহায়ক

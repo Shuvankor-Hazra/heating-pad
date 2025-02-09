@@ -60,7 +60,7 @@ const LuckyGift = () => {
                 <div className="pt-3">
                     <h2 className="bg-[#edf0ff] text-[#008906] text-xl max-w-[360px] p-3 pr-10 ">পিরিয়ড পেইন কমানোর জন্য রিচার্জেবল হিটিং প্যাড</h2>
                     <div className="absolute -bottom-[32px] -right-12">
-                        <Image alt="" src={gift} width={260} />
+                        <Image alt="" src={gift} width={260}  />
                     </div>
                 </div>
             </div>

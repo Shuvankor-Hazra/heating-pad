@@ -119,7 +119,7 @@ export default function Slider() {
                         <Image
                             src={src}
                             alt={`Thumbnail ${index + 1}`}
-                            className="thumbnail-image"
+                            className="thumbnail-image rounded-xl opacity-80"
                         />
                     </div>
                 ))}

@@ -35,7 +35,7 @@ const Luxurious = () => {
                 </h2>
                 {/* Image Section */}
                 <Image
-                    className="w-[200px] h-[150px] border border-black"
+                    className="w-[200px] h-[150px]"
                     src={img4}
                     alt=""
                 ></Image>

@@ -19,7 +19,6 @@ const Banner = () => {
                 }
             }
         };
-
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
@@ -36,9 +35,7 @@ const Banner = () => {
                     objectFit="cover"
                 />
             </div>
-            <div
-                className={`sticky-banner transition-all duration-300 ${isStuck ? 'fixed bottom-5' : ''} sticky top-0 bg-white z-10 rounded-b-[80px]`}
-            >
+            <div className={`sticky-banner transition-all duration-300 ${isStuck ? 'fixed bottom-5' : ''} sticky top-0 bg-white z-10 rounded-b-[60px]`}>
                 <OfferCount />
             </div>
         </>
