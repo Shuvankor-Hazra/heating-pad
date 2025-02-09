@@ -56,7 +56,7 @@ const LuckyGift = () => {
                     <Image src={img4} alt="Watch" layout="responsive" />
                 </div>
             </div>
-            <div className="relative pb-8">
+            <div className="relative pb-8 overflow-hidden">
                 <div className="pt-3">
                     <h2 className="bg-[#edf0ff] text-[#008906] text-xl max-w-[360px] p-3 pr-10 ">পিরিয়ড পেইন কমানোর জন্য রিচার্জেবল হিটিং প্যাড</h2>
                     <div className="absolute -bottom-[32px] -right-12">

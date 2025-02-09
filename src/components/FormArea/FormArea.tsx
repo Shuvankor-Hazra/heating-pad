@@ -53,7 +53,7 @@ const FormArea = () => {
                 </div>
 
                 {/* Button */}
-                <div className="relative text-center">
+                <div className="relative text-center overflow-hidden">
                     <button className="bg-black text-[#fda354] border-2 border-[#E5E7EB] text-xl font-semibold py-2 px-6 rounded-xl uppercase z-10">
                         Complete Registration
                     </button>
