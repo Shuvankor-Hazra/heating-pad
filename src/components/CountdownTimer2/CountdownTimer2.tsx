@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 
 interface CountdownTimerProps {
-    targetDate: string;
+    targetDate: string; // Accepts the target date as a string
 }
 
 interface TimeLeft {
@@ -12,7 +12,9 @@ interface TimeLeft {
     seconds: number;
 }
 
-const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
+const styles = "border font-semibold bg-black text-white text-[22px] w-[56px] h-[55px] flex items-center justify-center rounded-xl";
+
+const CountdownTimer2: React.FC<CountdownTimerProps> = ({ targetDate }) => {
     const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
     useEffect(() => {
@@ -37,33 +39,33 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
     const padWithZero = (num: number) => num < 10 ? `0${num}` : num;
 
     return (
-        <div className="text-white flex gap-3 justify-center items-center">
-            <div className="flex flex-col items-center">
-                <h2 className="border rounded-[7px] font-medium bg-white text-black text-[19px] w-[30px] h-[30px] flex items-center justify-center relative">
+        <div className="text-white flex gap-3 justify-center items-center my-2">
+            <div className="flex gap-2 flex-col items-center">
+                <h2 className={styles}>
                     {padWithZero(timeLeft.days)}
                 </h2>
-                <h3 className="text-[.8em] absolute bottom-0 tracking-tighter">Days</h3>
+                <h3 className="text-sm text-black">Days</h3>
             </div>
-            <div className="flex flex-col items-center">
-                <h2 className="border rounded-[7px] font-medium bg-white text-black text-[19px] w-[31px] h-[30px] flex items-center justify-center relative">
+            <div className="flex gap-2 flex-col items-center">
+                <h2 className={styles}>
                     {padWithZero(timeLeft.hours)}
                 </h2>
-                <h3 className="text-[.8em] absolute bottom-0 tracking-tighter">Hours</h3>
+                <h3 className="text-sm text-black">Hours</h3>
             </div>
-            <div className="flex flex-col items-center">
-                <h2 className="border rounded-[7px] font-medium bg-white text-black text-[19px] w-[31px] h-[30px] flex items-center justify-center relative">
+            <div className="flex gap-2 flex-col items-center">
+                <h2 className={styles}>
                     {padWithZero(timeLeft.minutes)}
                 </h2>
-                <h3 className="text-[.8em] absolute bottom-0 tracking-tighter">Minute</h3>
+                <h3 className="text-sm text-black">Minute</h3>
             </div>
-            <div className="flex flex-col items-center">
-                <h2 className="border rounded-[7px] font-medium bg-white text-black text-[19px] w-[31px] h-[30px] flex items-center justify-center relative">
+            <div className="flex gap-2 flex-col items-center">
+                <h2 className={styles}>
                     {padWithZero(timeLeft.seconds)}
                 </h2>
-                <h3 className="text-[.8em] absolute bottom-0 tracking-tighter">Seconds</h3>
+                <h3 className="text-sm text-black">Seconds</h3>
             </div>
         </div>
     );
 };
 
-export default CountdownTimer;
+export default CountdownTimer2;

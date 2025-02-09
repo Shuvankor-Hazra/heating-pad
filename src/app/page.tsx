@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner/Banner";
+import FormArea from "@/components/FormArea/FormArea";
 import LuckyGift from "@/components/LuckyGift/LuckyGift";
 import Luxurious from "@/components/Luxurious/Luxurious";
 import Product from "@/components/Product/Product";
@@ -14,6 +15,7 @@ export default function Home() {
       <LuckyGift />
       <Luxurious />
       <Product />
+      <FormArea />
     </div>
   );
 }
