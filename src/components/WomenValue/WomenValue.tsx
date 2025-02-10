@@ -11,7 +11,7 @@ const WomenValue = () => {
             </h2>
             <div className="relative">
                 <Image src={img1} alt="Watch" layout="responsive" />
-                <div className="absolute bottom-20 left-0 w-full">
+                <div className="absolute bottom-[70px] left-0 w-full">
                     <div className="bg-[#ffc0cbd4] p-5 text-black">
                         <h2 className="text-xl font-medium">
                             ১০০% ইউনিক, অনন্য! পাচ্ছেন একমাত্র আমাদের কাছেই!! সব ধরনের পার্শ্বপ্রতিক্রিয়া মুক্ত!
