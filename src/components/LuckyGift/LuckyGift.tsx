@@ -45,10 +45,10 @@ const LuckyGift = () => {
             </div>
             <div className="bg-[#bcd23e] px-3 pt-10">
                 <div className="flex justify-center items-center gap-2 mb-2">
-                    <div>
+                    <div className="flex-1">
                         <Image src={img2} alt="heating-pad" layout="responsive" />
                     </div>
-                    <div>
+                    <div className="flex-1">
                         <Image src={img3} alt="heating-pad" layout="responsive" />
                     </div>
                 </div>
