@@ -43,7 +43,7 @@ const LuckyGift = () => {
                 </div>
 
             </div>
-            <div className="bg-[#bcd23e] px-3 py-10">
+            <div className="bg-[#bcd23e] px-3 pt-10">
                 <div className="flex justify-center items-center gap-2 mb-2">
                     <div>
                         <Image src={img2} alt="heating-pad" layout="responsive" />
@@ -56,11 +56,11 @@ const LuckyGift = () => {
                     <Image src={img4} alt="heating-pad" layout="responsive" />
                 </div>
             </div>
-            <div className="relative pb-8 overflow-hidden">
+            <div className="relative py-10 overflow-hidden">
                 <div className="pt-3">
-                    <h2 className="bg-[#edf0ff] text-[#008906] text-xl max-w-[360px] p-3 pr-10 ">পিরিয়ড পেইন কমানোর জন্য রিচার্জেবল হিটিং প্যাড</h2>
-                    <div className="absolute -bottom-[32px] -right-12">
-                        <Image alt="gift-box" src={gift} width={260}  />
+                    <h2 className="bg-[#edf0ff] text-[#008906] text-xl max-w-[360px] p-3 pr-10 leading-10">পিরিয়ড পেইন কমানোর <br/> জন্য রিচার্জেবল হিটিং প্যাড</h2>
+                    <div className="absolute -bottom-[16px] -right-10">
+                        <Image alt="gift-box" src={gift} width={270}  />
                     </div>
                 </div>
             </div>
