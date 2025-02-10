@@ -33,7 +33,7 @@ const LuckyGift = () => {
                 </div>
             </div>
             <div className="relative">
-                <Image src={img1} alt="Watch" layout="responsive" />
+                <Image src={img1} alt="heating-pad" layout="responsive" />
                 <div className="absolute bottom-20 left-0 w-full">
                     <div className="bg-[#bcd23ecb] p-5 text-black">
                         <h2 className="text-xl font-medium">
@@ -46,21 +46,21 @@ const LuckyGift = () => {
             <div className="bg-[#bcd23e] px-3 py-10">
                 <div className="flex justify-center items-center gap-2 mb-2">
                     <div>
-                        <Image src={img2} alt="Watch" layout="responsive" />
+                        <Image src={img2} alt="heating-pad" layout="responsive" />
                     </div>
                     <div>
-                        <Image src={img3} alt="Watch" layout="responsive" />
+                        <Image src={img3} alt="heating-pad" layout="responsive" />
                     </div>
                 </div>
                 <div>
-                    <Image src={img4} alt="Watch" layout="responsive" />
+                    <Image src={img4} alt="heating-pad" layout="responsive" />
                 </div>
             </div>
             <div className="relative pb-8 overflow-hidden">
                 <div className="pt-3">
                     <h2 className="bg-[#edf0ff] text-[#008906] text-xl max-w-[360px] p-3 pr-10 ">পিরিয়ড পেইন কমানোর জন্য রিচার্জেবল হিটিং প্যাড</h2>
                     <div className="absolute -bottom-[32px] -right-12">
-                        <Image alt="" src={gift} width={260}  />
+                        <Image alt="gift-box" src={gift} width={260}  />
                     </div>
                 </div>
             </div>

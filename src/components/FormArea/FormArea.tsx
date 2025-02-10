@@ -13,7 +13,7 @@ const FormArea = () => {
                 <CountdownTimer2 targetDate={"2025-02-28T23:59:59"} />
 
                 {/* Form */}
-                <div className='text-center'>
+                <div className='text-center text-black'>
                     <input
                         type="text"
                         placeholder="Full name"
@@ -54,7 +54,7 @@ const FormArea = () => {
 
                 {/* Button */}
                 <div className="relative text-center overflow-hidden">
-                    <button className="bg-black text-[#fda354] border-2 border-[#E5E7EB] text-xl font-semibold py-2 px-6 rounded-xl uppercase z-10">
+                    <button className="bg-black text-[#ffbf88] border-2 border-[#E5E7EB] text-xl font-semibold py-2 px-6 rounded-xl uppercase z-10">
                         Complete Registration
                     </button>
                     <Image

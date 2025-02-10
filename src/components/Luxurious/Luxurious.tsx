@@ -22,7 +22,7 @@ const Luxurious = () => {
                     <h2 className="text-xl">এটি গরম এবং ভাইব্রেশন সুবিধা প্রদান করে, যা শরীরে আরাম এবং ব্যথা উপশমে সাহায্য করে</h2>
                 </div>
                 <Image
-                    className="absolute rounded-full right-7 bottom-52 animate-upDown"
+                    className="absolute rounded-full right-5 bottom-52 animate-upDown"
                     src={img3}
                     alt=""
                     width={117}
