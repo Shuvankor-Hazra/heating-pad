@@ -8,7 +8,7 @@ import WomenValue from "@/components/WomenValue/WomenValue";
 
 export default function Home() {
   return (
-    <div className="max-w-[420px] mx-auto bg-[#bcd23e]">
+    <div className="max-w-[420px] mx-auto bg-[#FFC0CB]">
       <Banner />
       <SliderArea />
       <WomenValue />

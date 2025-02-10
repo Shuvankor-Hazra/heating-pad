@@ -12,7 +12,7 @@ const SliderArea = () => {
             <h4 className="text-[#006b05] text-xl m-3 mt-0 p-2 bg-[#edf0ff] rounded-full">5.0 ⭐ | 5,790 Rating | 7,890 Sold
             </h4>
             <Slider />
-            <h2 className='text-[24px] font-bold text-white mx-3 my-10'>
+            <h2 className='text-[24px] font-bold text-gray-800 mx-3 my-10'>
             পিরিয়ডের ব্যথা ভালো করুন <br /> এখন বিনা ঔষধেই! <br /> ব্যবহার করুন <br /> আমাদের এই অসাধারণ পন্যটি!!
             </h2>
             <div className='relative mx-3 my-5 h-[480px]'>

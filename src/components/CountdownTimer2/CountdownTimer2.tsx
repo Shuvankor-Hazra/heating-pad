@@ -12,7 +12,7 @@ interface TimeLeft {
     seconds: number;
 }
 
-const styles = "border font-semibold bg-black text-white text-[22px] w-[56px] h-[55px] flex items-center justify-center rounded-xl";
+const styles = "border font-semibold bg-gray-800 text-white text-[22px] w-[56px] h-[55px] flex items-center justify-center rounded-xl";
 
 const CountdownTimer2: React.FC<CountdownTimerProps> = ({ targetDate }) => {
     const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 });

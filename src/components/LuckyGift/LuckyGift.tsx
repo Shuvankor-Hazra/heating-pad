@@ -9,7 +9,7 @@ import gift from "../../assets/giftBox.png"
 const LuckyGift = () => {
     return (
         <>
-            <div className="bg-[#bcd23e] text-black text-center py-10 ">
+            <div className="text-gray-800 text-center py-10 ">
                 <h2 className="text-xl font-bold my-5">মাসিকের অসহ্য ব্যথা ভালো করুন <br />বিনা ওষুধে</h2>
                 <div className="flex justify-center items-center gap-2">
                     <h2 className="text-6xl font-bold px-2 py-5 bg-white inline-block">50%</h2>
@@ -35,7 +35,7 @@ const LuckyGift = () => {
             <div className="relative">
                 <Image src={img1} alt="heating-pad" layout="responsive" />
                 <div className="absolute bottom-20 left-0 w-full">
-                    <div className="bg-[#bcd23ecb] p-5 text-black">
+                    <div className="bg-[#ffc0cbd4] p-5 text-gray-800">
                         <h2 className="text-xl font-medium">
                             ১০০% ইউনিক, অনন্য! পাচ্ছেন একমাত্র আমাদের কাছেই!! সব ধরনের পার্শ্বপ্রতিক্রিয়া মুক্ত!
                         </h2>
@@ -43,7 +43,7 @@ const LuckyGift = () => {
                 </div>
 
             </div>
-            <div className="bg-[#bcd23e] px-3 pt-10">
+            <div className="px-3 pt-10">
                 <div className="flex justify-center items-center gap-2 mb-2">
                     <div className="flex-1">
                         <Image src={img2} alt="heating-pad" layout="responsive" />

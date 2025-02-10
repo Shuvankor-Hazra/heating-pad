@@ -8,7 +8,7 @@ const Luxurious = () => {
     return (
         <>
             <div className="relative">
-                <div className="text-black">
+                <div className="text-gray-800">
                     <h2 className="text-4xl font-bold mt-10 text-center">Portable & Cordless
                         Hitting Pad</h2>
                 </div>
