@@ -51,7 +51,7 @@ const FormArea = () => {
 
                 {/* Button */}
                 <div className="relative text-center overflow-hidden pb-5">
-                    <button className="bg-gray-800 text-[#ffbf88] border-2 border-[#E5E7EB] text-xl font-semibold py-2 px-6 rounded-xl tracking-wider z-10">
+                    <button className="bg-gray-800 text-[#fff] border-2 border-[#E5E7EB] text-xl font-semibold py-2 px-6 rounded-xl tracking-wider z-10">
                         Complete Registration
                     </button>
                     <Image
